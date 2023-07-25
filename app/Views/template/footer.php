@@ -39,21 +39,22 @@
             <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
                 <h2 class="footer-heading">Quick Links</h2>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="py-2 d-block">Home</a></li>
-                    <li><a href="#" class="py-2 d-block">About</a></li>
-                    <li><a href="#" class="py-2 d-block">Causes</a></li>
-                    <li><a href="#" class="py-2 d-block">New Campaigns</a></li>
-                    <li><a href="#" class="py-2 d-block">Blog</a></li>
-                    <li><a href="#" class="py-2 d-block">Contact</a></li>
+                    <li><a href="<?php echo base_url() ?>" class="py-2 d-block">Home</a></li>
+                    <li><a href="<?php echo base_url() ?>" class="py-2 d-block">Program Kerja</a></li>
+                    <li><a href="<?php echo base_url() ?>" class="py-2 d-block">Gallery</a></li>
+                    <li><a href="<?php echo base_url() ?>profil" class="py-2 d-block">Profil Lembaga</a></li>
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                 <h2 class="footer-heading">Have a Questions?</h2>
                 <div class="block-23 mb-3">
                     <ul>
-                        <li><span class="icon fa fa-map"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                        <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                        <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+                        <li><span class="icon fa fa-map"></span><span class="text">Jl. Darussalam No.79, Susunan Baru, Kec. Tj. Karang Bar., Kota Bandar Lampung, Lampung 35115</span></li>
+                        <li><span class="icon fa fa-phone"></span><span class="text">0721-5602242</span></li>
+                        <li><a href="https://wa.me/081367600360"><span class="icon fa fa-whatsapp"></span><span class="text">0813-6760-0360</span></a></li>
+                        <li><a href="mailto:apikmandiri@gmail.com"><span class="icon fa fa-paper-plane"></span><span class="text">apikmandiri@gmail.com</span></a></li>
+                        <li><a href="https://www.instagram.com/apikmandiri"><span class="icon fa fa-instagram"></span><span class="text">@apikmandiri</span></a></li>
+                        <li><a href="https://web.facebook.com/profile.php?id=100069502470390"><span class="icon fa fa-facebook"></span><span class="text">@LksApikMandiri</span></a></li>
                     </ul>
                 </div>
             </div>
