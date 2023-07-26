@@ -13,7 +13,7 @@ Anggota :
 | ------------------------- | ---------- | ---------------- |
 | Mawar Alhani              | 2017031029 | S1 Matematika    |
 | M. Dwi Pratama            | 2017031049 | S1 Matematika    |
-| Muhtarom Ahkam   |        | 2017031030 | S1 Matematika    |
+| Muhtarom Ahkam            | 2017031030 | S1 Matematika    |
 | Rafiq Arssy Arifa         | 2017031056 | S1 Matematika    |
 | Dwi Kurniawan             | 2017031074 | S1 Ilmu Komputer |
 | Muhammad Rizki Kurniawan  | 2017051024 | S1 Ilmu Komputer |
