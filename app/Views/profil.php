@@ -125,7 +125,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="volunteer">
-                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-4.jpg);"></div>
+                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-5.jpg);"></div>
                     <div class="text text-4">
                         <h3>Dewi Marisa</h3>
                         <span>Bidang Kesehatan</span>
@@ -134,7 +134,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="volunteer">
-                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-4.jpg);"></div>
+                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-6.jpg);"></div>
                     <div class="text text-4">
                         <h3>Aldila Aprilia</h3>
                         <span>Bidang Sosial - Anak</span>
@@ -143,7 +143,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="volunteer">
-                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-4.jpg);"></div>
+                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-7.jpg);"></div>
                     <div class="text text-4">
                         <h3>Siti Jumiah</h3>
                         <span>Bidang Sosial - Lansia</span>
@@ -152,7 +152,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="volunteer">
-                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-4.jpg);"></div>
+                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-8.jpg);"></div>
                     <div class="text text-4">
                         <h3>Yeni Harnita</h3>
                         <span>Bidang Sosial - Disabilitas</span>
