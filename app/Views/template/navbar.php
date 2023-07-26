@@ -21,13 +21,21 @@
 
 	<link rel="stylesheet" href="<?php echo base_url()?>/unicare-master/css/flaticon.css">
 	<link rel="stylesheet" href="<?php echo base_url()?>/unicare-master/css/style.css">
+    <link rel="shortcut icon" href="<?php echo base_url()?>/logoapik_withoutText.png" rel="shortcut icon">
+    <style>
+        .btn-donateFooter{
+            background: #86d1ff;
+        }
+    </style>
 </head>
 <body>
 
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="<?php echo base_url()?>">Unicare</a>
+        <a href="<?php echo base_url()?>" >
+            <img src="<?php echo base_url() ?>/logo_apik.png" height="50" width="150" alt="logo_apik" onclick="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>

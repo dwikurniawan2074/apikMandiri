@@ -8,7 +8,7 @@ class HomeController extends BaseController
 {
     public function index()
     {
-        return view("template/templateHome");
+        return view("home");
     }
 
     public function profil()

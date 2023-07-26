@@ -1,6 +1,24 @@
 <!-- navbar -->
 <?= $this->include('template/navbar'); ?>
 
+<style>
+    .owl-carousel.home-slider .slider-item .overlay-1 {
+        background: #0376BC;
+    }
+
+    .owl-carousel.home-slider .slider-item .overlay-2 {
+        background: #86d1ff;
+    }
+
+    .owl-carousel.home-slider .slider-item .overlay-3 {
+        background: #0376BC;
+    }
+
+    .owl-carousel.home-slider .slider-item .overlay-4 {
+        background: #86d1ff;
+    }
+</style>
+
 <section class="hero-wrap js-fullheight">
     <div class="home-slider js-fullheight owl-carousel">
         <div class="slider-item js-fullheight" style="background-image:url(<?php echo base_url() ?>/unicare-master/images/bg_1.jpg);">
@@ -93,109 +111,6 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-md-5 order-md-last d-flex align-items-stretch">
-                <div class="donation-wrap">
-                    <div class="total-donate d-flex align-items-center">
-                        <span class="fa flaticon-cleaning"></span>
-                        <h4>Donation Campaign <br>are running</h4>
-                        <p class="d-flex align-items-center">
-                            <span>$</span>
-                            <span class="number" data-number="24781">0</span>
-                        </p>
-                    </div>
-                    <form action="#" class="appointment">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="name">Full Name</label>
-                                    <div class="input-wrap">
-                                        <div class="icon"><span class="fa fa-user"></span></div>
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="name">Email Address</label>
-                                    <div class="input-wrap">
-                                        <div class="icon"><span class="fa fa-paper-plane"></span></div>
-                                        <input type="email" class="form-control" placeholder="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="name">Select Causes</label>
-                                    <div class="form-field">
-                                        <div class="select-wrap">
-                                            <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                            <select name="" id="" class="form-control">
-                                                <option value=""></option>
-                                                <option value="">House Washing</option>
-                                                <option value="">Roof Cleaning</option>
-                                                <option value="">Driveway Cleaning</option>
-                                                <option value="">Gutter Cleaning</option>
-                                                <option value="">Patio Cleaning</option>
-                                                <option value="">Building Cleaning</option>
-                                                <option value="">Concrete Cleaning</option>
-                                                <option value="">Sidewal Cleaning</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="name">Amount</label>
-                                    <div class="input-wrap">
-                                        <div class="icon"><span class="fa fa-money"></span></div>
-                                        <input type="text" class="form-control" placeholder="$5">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="name">Payment Method</label>
-                                    <div class="d-lg-flex">
-                                        <div class="form-radio mr-3">
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="radio-input" checked>
-                                                    <span class="checkmark"></span>
-                                                    <span class="fill-control-description">Credit Card</span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="form-radio mr-3">
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="radio-input">
-                                                    <span class="checkmark"></span>
-                                                    <span class="fill-control-description">Paypal</span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="form-radio">
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="radio-input">
-                                                    <span class="checkmark"></span>
-                                                    <span class="fill-control-description">Payoneer</span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input type="submit" value="Donate Now" class="btn btn-secondary py-3 px-4">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
             <div class="col-md-7 wrap-about py-5">
                 <div class="heading-section pr-md-5 pt-md-5">
                     <span class="subheading">Welcome to unicare</span>
