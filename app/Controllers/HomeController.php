@@ -15,4 +15,9 @@ class HomeController extends BaseController
     {
         return view("profil");
     }
+
+    public function gallery()
+    {
+        return view("gallery");
+    }
 }
