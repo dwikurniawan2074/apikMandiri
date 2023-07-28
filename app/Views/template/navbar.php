@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Apik Mandiri</title>
+    <title>Apik Mandiri - <?= $title; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -25,7 +25,19 @@
     <link rel="shortcut icon" href="<?php echo base_url() ?>/logoapik_withoutText.png" rel="shortcut icon">
     <style>
         .btn-donateFooter {
-            background: #86d1ff;
+            background: #0376BC;
+        }
+        
+        .footer a{
+            color: black;
+        }
+
+        .text-page {
+            padding-bottom: 16rem !important;
+        }
+
+        .hero-wrap.hero-wrap-2 {
+            height: 400px;
         }
     </style>
 </head>
@@ -35,7 +47,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="<?php echo base_url() ?>">Unicare</a>
+            <a href="<?php echo base_url() ?>">
+                <img src="<?php echo base_url() ?>/logo_apik.png" alt="logo_apik_mandiri" height="50" width="150">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>
@@ -46,7 +60,7 @@
                     <li class="nav-item"><a href="<?php echo base_url() ?>" class="nav-link">Program Kerja</a></li>
                     <li class="nav-item"><a href="<?php echo base_url() ?>gallery" class="nav-link">Gallery</a></li>
                     <li class="nav-item"><a href="<?php echo base_url() ?>profil" class="nav-link">Profil Lembaga</a></li>
-                    <li class="nav-item cta"><a href="<?php echo base_url() ?>" class="nav-link">Donasi</a></li>
+                    <li class="nav-item cta"><a href="<?php echo base_url() ?>donate" class="nav-link">Donasi</a></li>
                 </ul>
             </div>
         </div>

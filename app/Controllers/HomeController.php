@@ -8,16 +8,33 @@ class HomeController extends BaseController
 {
     public function index()
     {
-        return view("home");
+        $data = [
+            'title' => 'Home',
+        ];
+        return view("home", $data);
     }
 
     public function profil()
     {
-        return view("profil");
+        $data = [
+            'title' => 'Profil',
+        ];
+        return view("profil", $data);
     }
 
     public function gallery()
     {
-        return view("gallery");
+        $data = [
+            'title' => 'Gallery',
+        ];
+        return view("gallery", $data);
+    }
+
+    public function donate()
+    {
+        $data = [
+            'title' => 'Donasi',
+        ];
+        return view("donate", $data);
     }
 }

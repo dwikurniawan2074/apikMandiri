@@ -32,6 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'HomeController::index');
 $routes->get('/profil', 'HomeController::profil');
 $routes->get('/gallery', 'HomeController::gallery');
+$routes->get('/donate', 'HomeController::donate');
 
 /*
  * --------------------------------------------------------------------
