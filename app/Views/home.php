@@ -17,6 +17,26 @@
     .owl-carousel.home-slider .slider-item .overlay-4 {
         background: #86d1ff;
     }
+
+    .causes .img {
+        border-radius: 5% 5% 0 0;
+    }
+
+    .testimony-section {
+        padding: 5em 0;
+        background: #4c7bcb;
+        background: url("<?php echo base_url() ?>/unicare-master/images/moroccan-flower-dark.png");
+    }
+
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grid-item{
+        flex-basis: calc(33.33% - 40px);
+    }
 </style>
 
 <section class="hero-wrap js-fullheight">
@@ -30,18 +50,12 @@
                 <div class="row no-gutters slider-text js-fullheight align-items-center">
                     <div class="col-md-10 col-lg-7 ftco-animate">
                         <div class="text w-100">
-                            <h2>Help the poor in need</h2>
-                            <h1 class="mb-3">Lend the helping hand get involved</h1>
+                            <h2>Ayo bantu masyarakat sekitarmu</h2>
+                            <h1 class="mb-3">Lembaga pemberdayaan Sosial</h1>
                             <div class="d-flex meta">
                                 <div class="">
-                                    <p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Become A Volunteer</a></p>
+                                    <p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Ayo Berdonasi!</a></p>
                                 </div>
-                                <a href="#" class="d-flex align-items-center button-link">
-                                    <div class="button-video d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-play"></span>
-                                    </div>
-                                    <span>Watch our video</span>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -58,18 +72,12 @@
                 <div class="row no-gutters slider-text js-fullheight align-items-center">
                     <div class="col-md-10 col-lg-7 ftco-animate">
                         <div class="text w-100">
-                            <h2>Raising Hope</h2>
-                            <h1 class="mb-3">Discover Non-Profit Charity Platform</h1>
+                            <h2>Bantu anak-anak kecil agar hidup lebih layak</h2>
+                            <h1 class="mb-3">Pemerataan akses pendidikan ke seluruh anak sebagai visi Apik Mandiri</h1>
                             <div class="d-flex meta">
                                 <div class="">
-                                    <p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Become A Volunteer</a></p>
+                                    <p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Ayo Berdonasi!</a></p>
                                 </div>
-                                <a href="#" class="d-flex align-items-center button-link">
-                                    <div class="button-video d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-play"></span>
-                                    </div>
-                                    <span>Watch our video</span>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -86,18 +94,12 @@
                 <div class="row no-gutters slider-text js-fullheight align-items-center">
                     <div class="col-md-10 col-lg-7 ftco-animate">
                         <div class="text w-100">
-                            <h2>Raising Hope</h2>
-                            <h1 class="mb-3">Giving Hope to the Homeless People</h1>
+                            <h2>Makan Makanan Sehat</h2>
+                            <h1 class="mb-3">Setiap orang berhak untuk makan makanan yang sehat</h1>
                             <div class="d-flex meta">
                                 <div class="">
-                                    <p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Become A Volunteer</a></p>
+                                    <p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Ayo Berdonasi!</a></p>
                                 </div>
-                                <a href="#" class="d-flex align-items-center button-link">
-                                    <div class="button-video d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-play"></span>
-                                    </div>
-                                    <span>Watch our video</span>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -113,9 +115,9 @@
         <div class="row">
             <div class="col-md-7 wrap-about py-5">
                 <div class="heading-section pr-md-5 pt-md-5">
-                    <span class="subheading">Welcome to unicare</span>
-                    <h2 class="mb-4">We are here to help everyone in need</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                    <span class="subheading"></span>
+                    <h2 class="mb-4">Selamat Datang di Website Apik Mandiri</h2>
+                    <h5>Berdiri sejak tahun 2003 bergerak di bidang pemberdayaan dan rehabilitasi pemerlu pelayanan kesejahteraan sosial (PPKS) dan telah terkareditasi B oleh Kementerian Sosial.</h5>
                 </div>
                 <div class="row my-md-5">
                     <div class="col-md-6 d-flex counter-wrap">
@@ -125,10 +127,10 @@
                             </div>
                             <div class="desc">
                                 <div class="text">
-                                    <strong class="number" data-number="50">0</strong>
+                                    <strong class="number" data-number="18">0</strong>
                                 </div>
                                 <div class="text">
-                                    <span>Volunteers</span>
+                                    <span>Mitra</span>
                                 </div>
                             </div>
                         </div>
@@ -161,12 +163,12 @@
             <div class="col-md-3 d-flex align-items-stretch">
                 <div class="services">
                     <div class="text text-center bg-secondary">
-                        <h3>Become a <br>Volunteer</h3>
-                        <p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
+                        <h3>Kesehatan</h3>
+                        <p>Membantu menyediakan akses fasilitas kesehatan bagi masyarakat yang kurang mampu</p>
                     </div>
                     <div class="img border-2" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/services-1.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="flaticon-volunteer"></span>
+                            <span class="flaticon-stethoscope"></span>
                         </div>
                     </div>
                 </div>
@@ -174,12 +176,12 @@
             <div class="col-md-3 d-flex align-items-stretch">
                 <div class="services">
                     <div class="text text-center bg-tertiary">
-                        <h3>Quick <br>Fundraising</h3>
-                        <p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
+                        <h3>Makanan</h3>
+                        <p>Membantu menyediakan makanan-makanan sehat bagi orang yang tidak mampu</p>
                     </div>
                     <div class="img border-3" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/services-2.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="flaticon-piggy-bank"></span>
+                            <span class="flaticon-bread"></span>
                         </div>
                     </div>
                 </div>
@@ -187,12 +189,12 @@
             <div class="col-md-3 d-flex align-items-stretch">
                 <div class="services">
                     <div class="text text-center bg-primary">
-                        <h3>Start <br>Donating</h3>
-                        <p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
+                        <h3>Air</h3>
+                        <p>Membantu menyediakan air bersih untuk pesantren-pesantren dan daerah tertinggal</p>
                     </div>
                     <div class="img border-1" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/services-3.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="flaticon-donation"></span>
+                            <span class="flaticon-water-drop"></span>
                         </div>
                     </div>
                 </div>
@@ -200,12 +202,12 @@
             <div class="col-md-3 d-flex align-items-stretch">
                 <div class="services">
                     <div class="text text-center bg-quarternary">
-                        <h3>Get <br>Involved</h3>
-                        <p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
+                        <h3>Pendidikan</h3>
+                        <p>Membantu dalam mewujudkan sistem pendidikan yang merata bagi setiap anak indonesia</p>
                     </div>
                     <div class="img border-4" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/services-4.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="flaticon-ecological"></span>
+                            <span class="flaticon-university"></span>
                         </div>
                     </div>
                 </div>
@@ -218,80 +220,93 @@
     <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
             <div class="col-md-7 heading-section text-center ftco-animate">
-                <span class="subheading">Our Causes</span>
-                <h2>Donate to charity causes around the world</h2>
+                <span class="subheading">Campaigns</span>
+                <h2>Campaign Yang Sedang Berjalan</h2>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-6 col-lg-3">
                 <div class="causes causes-2 text-center ftco-animate">
-                    <a href="#" class="img w-100" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/causes-1.jpg);"></a>
+                    <a href="#" class="img w-100" style="background-image: url(https://kitabisa.com/_next/image?url=https%3A%2F%2Fimgix.kitabisa.com%2Fmaster%2F34918bef-09fa-11ee-94c6-d6c536cdd306_1D68D5722B6E5325.png%3Fauto%3Dformat%26ch%3DWidth%2CDPR%2CSave-Data%2CViewport-Width&w=640&q=75);"></a>
                     <div class="text p-3">
-                        <h2><a href="#">Save the poor children from hunger</a></h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                        <div class="goal mb-4">
-                            <p><span>$3,800</span> to go</p>
-                            <div class="progress" style="height:20px">
-                                <div class="progress-bar progress-bar-striped" style="width:70%; height:20px">70%</div>
-                            </div>
-                        </div>
-                        <p><a href="#" class="btn btn-light w-100">Donate Now</a></p>
+                        <h2><a href="https://kitabisa.com/campaign/apikdonasiuntuklansia">Donasi Rutin Bantu Puluhan Lansia di Panti Jompo</a></h2>
+                        <p>Terdapat 80 lansia yang tinggal di Panti Jompo Werdha, Natar, Lampung Selatan.</p>
+                        <p><a href="https://kitabisa.com/campaign/apikdonasiuntuklansia" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="causes causes-2 text-center ftco-animate">
-                    <a href="#" class="img w-100" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/causes-2.jpg);"></a>
+                    <a href="#" class="img w-100" style="background-image: url(https://img.kitabisa.cc/size/1000/7c4c78e9-1586-42c8-a49f-eaeb16685c76.jpg);"></a>
                     <div class="text p-3">
-                        <h2><a href="#">Save the poor children from hunger</a></h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                        <div class="goal mb-4">
-                            <p><span>$3,800</span> to go</p>
-                            <div class="progress" style="height:20px">
-                                <div class="progress-bar progress-bar-striped" style="width:82%; height:20px">82%</div>
-                            </div>
-                        </div>
-                        <p><a href="#" class="btn btn-light w-100">Donate Now</a></p>
+                        <h2><a href="https://kitabisa.com/campaign/perlengkapansekolahanaktps">MIRIS! 20 Pemulung Cilik Cari Nafkah Demi Sekolah</a></h2>
+                        <p>Penuh keringat, kisah perjuangan anak-anak di TPS Bakung sungguh menyayat hati. </p>
+                        <p><a href="https://kitabisa.com/campaign/perlengkapansekolahanaktps" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="causes causes-2 text-center ftco-animate">
-                    <a href="#" class="img w-100" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/causes-3.jpg);"></a>
+                    <a href="#" class="img w-100" style="background-image: url(https://lh3.googleusercontent.com/Em8rCYOjzcdFXlgoNHeeZC0U4zb0U8GesxmftlGMqhpWd-rPigBAb4UiY-rFJ9m7k09k_xYatLqkgjAh5Aa6DHnwMFOYj7yy8eeSdG7DOxF-U_TRiFZwqMOuri9oWWwlOHM18AVGBDcCVgdaeDgfgbM);"></a>
                     <div class="text p-3">
-                        <h2><a href="#">Save the poor children from hunger</a></h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                        <div class="goal mb-4">
-                            <p><span>$3,800</span> to go</p>
-                            <div class="progress" style="height:20px">
-                                <div class="progress-bar progress-bar-striped" style="width:95%; height:20px">95%</div>
-                            </div>
-                        </div>
-                        <p><a href="#" class="btn btn-light w-100">Donate Now</a></p>
+                        <h2><a href="https://kitabisa.com/campaign/apiksebatangkara">Sebatang Kara, Sakit-sakitan, Hidup Dari Layangan</a></h2>
+                        <p>Walau dagangannya sering sepi pembeli, kakek tetap giat mencari selembar dua lembar rupiah.</p>
+                        <p><a href="https://kitabisa.com/campaign/apiksebatangkara" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="causes causes-2 text-center ftco-animate">
-                    <a href="#" class="img w-100" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/causes-4.jpg);"></a>
+                    <a href="#" class="img w-100" style="background-image: url(https://img.kitabisa.cc/size/750/1e739637-80d1-4b3e-8706-c03723a4ffa0.jpg);"></a>
                     <div class="text p-3">
-                        <h2><a href="#">Save the poor children from hunger</a></h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                        <div class="goal mb-4">
-                            <p><span>$3,800</span> to go</p>
-                            <div class="progress" style="height:20px">
-                                <div class="progress-bar progress-bar-striped" style="width:75%; height:20px">75%</div>
-                            </div>
-                        </div>
-                        <p><a href="#" class="btn btn-light w-100">Donate Now</a></p>
+                        <h2><a href="https://kitabisa.com/campaign/untuklansiaapik">Ayah ‘Totol’ Sering Dihina Saat Cari Nafkah</a></h2>
+                        <p>Selama 47 tahun hidup, Pak Misna tak henti-hentinya mendengar hinaan dan cacian tentang fisiknya. </p>
+                        <p><a href="https://kitabisa.com/campaign/untuklansiaapik" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row grid-container">
+            <div class="col-md-6 col-lg-1"></div>
+            <div class="col-md-6 col-lg-3 grid-item">
+                <div class="causes causes-2 text-center ftco-animate">
+                    <a href="#" class="img w-100" style="background-image: url(https://img.kitabisa.cc/size/1000/f32aea7e-7d10-45ec-ab56-3aa234540fcf.jpg);"></a>
+                    <div class="text p-3">
+                        <h2><a href="https://kitabisa.com/campaign/apikbantuammar">Tubuh Melepuh, Ammar Terancam Kanker Kulit</a></h2>
+                        <p>Ammar hanya bisa menangis dan merintih kesakitan. Sekujur tubuhnya melepuh akibat tersiram air panas.</p>
+                        <p><a href="https://kitabisa.com/campaign/apikbantuammar" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+                <div class="causes causes-2 text-center ftco-animate">
+                    <a href="https://kitabisa.com/campaign/apikuntukfatirdandhira" class="img w-100" style="background-image: url(https://lh5.googleusercontent.com/edIqD0ZXVHOHRVw2zgERWj2SkNmLrmjOSzEySC9tiV-cfGLzWjfpqmgo-N3XppNIYeuQKRHfdXjbzCEGLMrsOODceo4f85xo0ZvfNvWzf4FLmnu7j28BaNM6NlILyhNaMtdkrbbhmHsOBxVB0EwsTN4);"></a>
+                    <div class="text p-3">
+                        <h2><a href="https://kitabisa.com/campaign/apikuntukfatirdandhira">Single Mom Berjuang Sembuhkan 2 Anak Sakit Kanker</a></h2>
+                        <p>Buah hatinya, Alfathir (2 tahun) dan Nadhira (1 tahun) sejak lahir sama-sama divonis kanker mata.</p>
+                        <p><a href="https://kitabisa.com/campaign/apikuntukfatirdandhira" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+                <div class="causes causes-2 text-center ftco-animate">
+                    <a href="https://kitabisa.com/campaign/apikuntukmila" class="img w-100" style="background-image: url(https://lh5.googleusercontent.com/nrNjU8RUjIpuTOGSkLthq8eWaijDTGEI_DbzBvegUF2F9jgpLxquqvQ76Vi1xK1fHNMI4Hec5EiEk7QentNGMIM33ig9W4gzVYBejW3wX_7Yfra5AWpLy4W1uIopWU-BlCMgjBe3wCciaj6FaPipKUs);"></a>
+                    <div class="text p-3">
+                        <h2><a href="https://kitabisa.com/campaign/apikuntukmila">Bantu Jantung Anak Ojol Ini Tetap Berdetak</a></h2>
+                        <p>Mila membuka kedua matanya pelan. Yang bocah 9 tahun itu lihat pertama kali adalah langit-langit rumah sakit.</p>
+                        <p><a href="https://kitabisa.com/campaign/apikuntukmila" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-1"></div>
         </div>
     </div>
 </section>
 
-<section class="ftco-counter" id="section-counter">
+<!-- dicomment sementara -->
+<!-- <section class="ftco-counter" id="section-counter">
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-5 mb-md-0 text-center text-md-left">
@@ -344,15 +359,15 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="ftco-section testimony-section">
     <div class="overlay"></div>
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-                <span class="subheading">Testimony</span>
-                <h2>Happy Clients &amp; Feedbacks</h2>
+                <span class="subheading">Mitra</span>
+                <h2>Daftar Mitra Yang Sudah Tergabung Bersama Apik Mandiri</h2>
             </div>
         </div>
         <div class="row ftco-animate">
@@ -360,106 +375,171 @@
                 <div class="carousel-testimony owl-carousel">
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/person_1.jpg)">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kemensos.png)">
                             </div>
                             <div class="text pl-4">
-                                <span class="quote d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-quote-left"></i>
-                                </span>
-                                <p class="rate">
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </p>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                                <p class="name">Racky Henderson</p>
-                                <span class="position">Father</span>
+                                <p class="name">Kementrian Sosial RI</p>
+                                <span class="position">Mitra</span>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/person_2.jpg)">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_stc.png)">
                             </div>
                             <div class="text pl-4">
-                                <span class="quote d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-quote-left"></i>
-                                </span>
-                                <p class="rate">
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </p>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                                <p class="name">Henry Dee</p>
-                                <span class="position">Businesswoman</span>
+                                <p class="name">Save The Children</p>
+                                <span class="position">Mitra</span>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/person_3.jpg)">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kemensos.png)">
                             </div>
                             <div class="text pl-4">
-                                <span class="quote d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-quote-left"></i>
-                                </span>
-                                <p class="rate">
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </p>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                                <p class="name">Mark Huff</p>
-                                <span class="position">Businesswoman</span>
+                                <p class="name">Dinas Sosial Lampung</p>
+                                <span class="position">Mitra</span>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/person_4.jpg)">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_disnaker.png)">
                             </div>
                             <div class="text pl-4">
-                                <span class="quote d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-quote-left"></i>
-                                </span>
-                                <p class="rate">
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </p>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                                <p class="name">Benjie Busk Jr.</p>
-                                <span class="position">Businesswoman</span>
+                                <p class="name">Dinas Tenaga Kerja</p>
+                                <span class="position">Mitra</span>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/person_1.jpg)">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_perbankan.png)">
                             </div>
                             <div class="text pl-4">
-                                <span class="quote d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-quote-left"></i>
-                                </span>
-                                <p class="rate">
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </p>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                                <p class="name">Ken Bosh</p>
-                                <span class="position">Businesswoman</span>
+                                <p class="name">Dunia Perbankan</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_BUMN.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">BUMN</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kemenkes.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Dinas Kesehatan</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_disdukcapil.svg)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">DISDUKCAPIL</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kakanwilHam.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Kakanwil Hukum dan HAM</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_lapasBapas.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Lapas dan Bapas Se Provinsi Lampung</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kemenag.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Kementrian Agama</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_muslimatNU.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Muslimat NU</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kemensos.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Balai Rumbai Pekan Baru</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kemensos.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Balai Ciungwanara Bogor</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kemensos.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Balai Budhi Dharma Bekasi</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_kemensos.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Balai Inten Suweno Bogor</p>
+                                <span class="position">Mitra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap d-flex">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            </div>
+                            <div class="text pl-4">
+                                <p class="name">Kitabisa.com</p>
+                                <span class="position">Mitra</span>
                             </div>
                         </div>
                     </div>
@@ -468,149 +548,6 @@
         </div>
     </div>
 </section>
-
-<section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center pb-5 mb-3">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-                <span class="subheading">Our Blog</span>
-                <h2>Latest news from our blog</h2>
-            </div>
-        </div>
-        <div class="row d-flex">
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url() ?>/unicare-master/'images/image_1.jpg');">
-                    </a>
-                    <div class="text p-4">
-                        <div class="meta mb-2">
-                            <div><a href="#">July 20, 2020</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading"><a href="#">Foods &amp; Water Need in Africa</a></h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                        <p><a href="#" class="btn btn-secondary">Read more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url() ?>/unicare-master/'images/image_2.jpg');">
-                    </a>
-                    <div class="text p-4">
-                        <div class="meta mb-2">
-                            <div><a href="#">July 20, 2020</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading"><a href="#">Foods &amp; Water Need in Africa</a></h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                        <p><a href="#" class="btn btn-secondary">Read more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url() ?>/unicare-master/'images/image_3.jpg');">
-                    </a>
-                    <div class="text p-4">
-                        <div class="meta mb-2">
-                            <div><a href="#">July 20, 2020</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading"><a href="#">Foods &amp; Water Need in Africa</a></h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                        <p><a href="#" class="btn btn-secondary">Read more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url() ?>/unicare-master/'images/image_4.jpg');">
-                    </a>
-                    <div class="text p-4">
-                        <div class="meta mb-2">
-                            <div><a href="#">July 20, 2020</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading"><a href="#">Foods &amp; Water Need in Africa</a></h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                        <p><a href="#" class="btn btn-secondary">Read more</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="ftco-section ftco-no-pt">
-    <div class="container">
-        <div class="row justify-content-center pb-5 mb-3">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-                <span class="subheading">Volunteer</span>
-                <h2>Our Expert Volunteer</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-3">
-                <div class="volunteer">
-                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-1.jpg);"></div>
-                    <div class="text text-1">
-                        <h3>Alex Martin</h3>
-                        <span>Volunteer</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="volunteer">
-                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-2.jpg);"></div>
-                    <div class="text text-2">
-                        <h3>Cedrick Brown</h3>
-                        <span>Volunteer</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="volunteer">
-                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-3.jpg);"></div>
-                    <div class="text text-3">
-                        <h3>John Wick</h3>
-                        <span>Volunteer</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="volunteer">
-                    <div class="img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/team-4.jpg);"></div>
-                    <div class="text text-4">
-                        <h3>Max Love</h3>
-                        <span>Volunteer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="ftco-hireme bg-secondary">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-md-8 col-lg-8 d-flex align-items-center">
-                <div class="w-100">
-                    <h2>Best Way to Make a Difference in the Lives of Others</h2>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 d-flex align-items-center justify-content-end">
-                <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-4">Become A Volunteer</a></p>
-            </div>
-        </div>
-    </div>
-</section>
-
 
 <!-- footer -->
 <?= $this->include('template/footer') ?>
