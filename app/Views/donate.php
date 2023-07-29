@@ -33,10 +33,6 @@
         color: #808080;
     }
 
-    .ftco-hireme {
-        padding: 30px 0;
-    }
-
     
 </style>
 
@@ -45,7 +41,7 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
-                <h2>Bantu memberdayakan masyarakat demi terwujudnya kesejahteraan sosial bagi masyarakat Indonesia</h2>
+                <h2>Bantu memberdayakan masyarakat demi terwujudnya kesejahteraan sosial bagi masyarakat sekitar</h2>
             </div>
         </div>
     </div>
@@ -79,7 +75,7 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-                <h2>Ayo Salurkan Bantuanmu Melalui Rekening di Bawah ini</h2>
+                <h2>Ayo Berikan Bantuanmu Melalui Campaign/Rekening di Bawah ini</h2>
             </div>
         </div>
         <div class="row ftco-animate">
@@ -93,7 +89,7 @@
                                 <p class="name">Kitabisa</p>
                                 <span class="position">Apik Mandiri</span>
                                 <br>
-                                <span class="position"><a href="https://kitabisa.com/orang-baik/139a7377b5a4a78bb31772ca7464e30b" target="_blank"><i><u>Kunjungi Halaman</u></i></a></span>
+                                <span class="position"><a href="https://kitabisa.com/orang-baik/e77372ad5c1086ffb21bad5284d82f9b" target="_blank"><i><u>Kunjungi Halaman</u></i></a></span>
                             </div>
                         </div>
                     </div>
