@@ -34,8 +34,16 @@
         justify-content: center;
     }
 
-    .grid-item{
+    .grid-item {
         flex-basis: calc(33.33% - 40px);
+    }
+
+    .ftco-appointment {
+        margin: 100px 0;
+    }
+
+    .wrap-about .text .number {
+        display: inline-block;
     }
 </style>
 
@@ -51,7 +59,7 @@
                     <div class="col-md-10 col-lg-7 ftco-animate">
                         <div class="text w-100">
                             <h2>Ayo bantu masyarakat sekitarmu</h2>
-                            <h1 class="mb-3">Lembaga pemberdayaan Sosial</h1>
+                            <h1 class="mb-3">Bantu Menyejahterakan Masyarakat Melalui Lembaga Pemberdayaan Sosial</h1>
                             <div class="d-flex meta">
                                 <div class="">
                                     <p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Ayo Berdonasi!</a></p>
@@ -117,7 +125,7 @@
                 <div class="heading-section pr-md-5 pt-md-5">
                     <span class="subheading"></span>
                     <h2 class="mb-4">Selamat Datang di Website Apik Mandiri</h2>
-                    <h5>Berdiri sejak tahun 2003 bergerak di bidang pemberdayaan dan rehabilitasi pemerlu pelayanan kesejahteraan sosial (PPKS) dan telah terkareditasi B oleh Kementerian Sosial.</h5>
+                    <h5>Lembaga pemberdayaan sosial yang sudah berdiri sejak tahun 2003 yang bergerak di bidang pemberdayaan dan rehabilitasi pemerlu pelayanan kesejahteraan sosial (PPKS) dan telah terkareditasi B oleh Kementerian Sosial.</h5>
                 </div>
                 <div class="row my-md-5">
                     <div class="col-md-6 d-flex counter-wrap">
@@ -126,8 +134,9 @@
                                 <span class="flaticon-volunteer"></span>
                             </div>
                             <div class="desc">
-                                <div class="text">
-                                    <strong class="number" data-number="18">0</strong>
+                                <div class="text mitra-number">
+                                    <strong class="number mitra-number" data-number="18">0</strong>
+                                    <strong class="number mitra-number">+</strong>
                                 </div>
                                 <div class="text">
                                     <span>Mitra</span>
@@ -138,20 +147,24 @@
                     <div class="col-md-6 d-flex counter-wrap">
                         <div class="block-18 d-flex">
                             <div class="icon d-flex align-items-center justify-content-center">
-                                <span class="flaticon-piggy-bank"></span>
+                                <span class="flaticon-volunteer"></span>
                             </div>
                             <div class="desc">
-                                <div class="text">
-                                    <strong class="number" data-number="24400">0</strong>
+                                <div class="text mitra-number">
+                                    <strong class="number mitra-number" data-number="30">0</strong>
+                                    <strong class="number mitra-number">+</strong>
                                 </div>
                                 <div class="text">
-                                    <span>Trusted Funds</span>
+                                    <span>Campaign</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p><a href="#" class="btn btn-secondary btn-outline-secondary">Become A Volunteer</a></p>
+                <!-- <p><a href="#" class="btn btn-secondary btn-outline-secondary">Become A Volunteer</a></p> -->
+            </div>
+            <div class="col-md-5 wrap-about py-5">
+                <img class="img-fluid" src="<?php echo base_url() ?>/logo_lembaga/foto_donasi.jpg" alt="Foto Landing Page" style="height: 100%;">
             </div>
         </div>
     </div>

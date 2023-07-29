@@ -335,7 +335,7 @@
     </div>
 </section>
 
-<section class="ftco-section ftco-no-pt">
+<!-- <section class="ftco-section ftco-no-pt">
     <div class="container">
         <div class="row justify-content-center pb-1 mb-1">
             <div class="col-md-7 heading-section text-center ftco-animate">
@@ -347,7 +347,7 @@
                 <div class="carousel-testimony owl-carousel">
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Kementrian Sosial RI</p>
@@ -357,7 +357,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Dinsos Prov. Lampung</p>
@@ -367,7 +367,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Dinas Tenaga Kerja</p>
@@ -377,7 +377,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Save The Children</p>
@@ -387,7 +387,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Dunia Perbankan dan BUMN</p>
@@ -397,7 +397,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Dinas Pendidikan dan Kebudayaan</p>
@@ -407,7 +407,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Dinas Kesehatan</p>
@@ -417,7 +417,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Dinas Dukcapil</p>
@@ -427,7 +427,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Kakanwil Hukum dan HAM</p>
@@ -437,7 +437,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Lapas dan Bapas se-prov. Lampung</p>
@@ -447,7 +447,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Kementrian Agama</p>
@@ -457,7 +457,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Muslimat NU</p>
@@ -467,7 +467,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">NGO - Stage Holder dan Rujukan</p>
@@ -477,7 +477,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Balai Rumbai Pekan Baru</p>
@@ -487,7 +487,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Balai Ciungwanara Bogor</p>
@@ -497,7 +497,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Balai Budhi Dharma Bekasi</p>
@@ -507,7 +507,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Balai Inten Suweno Bogor</p>
@@ -517,7 +517,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/kitabisa_icons_512.png)">
+                            <div class="user-img" style="background-image: url(/unicare-master/images/kitabisa_icons_512.png)">
                             </div>
                             <div class="text pl-4">
                                 <p class="name">Kita Bisa</p>
@@ -529,18 +529,18 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="ftco-hireme bg-secondary">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-md-8 col-lg-8 d-flex align-items-center">
                 <div class="w-100">
-                    <h2>Best Way to Make a Difference in the Lives of Others</h2>
+                    <h2>Ingin berkolaborasi bersama Apik Mandiri?</h2>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 d-flex align-items-center justify-content-end">
-                <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-4">Menjadi Seorang Volunteer</a></p>
+                <p class="mb-0"><a href="https://wa.me/081367600360" target="_blank" class="btn btn-primary py-3 px-4">Hubungi Kami</a></p>
             </div>
         </div>
     </div>
