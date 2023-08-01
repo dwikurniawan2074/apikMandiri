@@ -168,7 +168,7 @@
         <div class="row">
             <div class="col-md-3 mb-5 mb-md-0 text-center text-md-left">
                 <h2 class="font-weight-bold" style="color: #fff; font-size: 22px;">Kami Bekerja Untuk Proyek-Proyek Penuh Dampak dan Solusi Inovatif</h2>
-                <a href="#" class="btn btn-white btn-outline-white">Donasi Sekarang</a>
+                <a href="<?php echo base_url() ?>donate" class="btn btn-white btn-outline-white">Donasi Sekarang</a>
             </div>
             <div class="col-md-9">
                 <div class="row">
@@ -290,7 +290,7 @@
                                     <span class="fa fa-handshake-o"></span>
                                 </div>
                                 <div class="text">
-                                    <p><span>Donasi - Kita Bisa</span> <a href="https://www.kitabisa.com" target="_blank">kitabisa.com</a></p>
+                                    <p><span>Donasi - Kita Bisa</span> <a href="https://kitabisa.com/orang-baik/e77372ad5c1086ffb21bad5284d82f9b" target="_blank">kitabisa.com</a></p>
                                 </div>
                             </div>
                         </div>
@@ -300,7 +300,9 @@
                                     <span class="fa fa-bank"></span>
                                 </div>
                                 <div class="text">
-                                    <p><span>Donasi - Bank BNI</span>02588762462</p>
+                                    <p><span>Donasi - Bank Mandiri</span></p>
+                                    <p>a.n</p>
+                                    <p>Lembaga Kesejahteraa</p>
                                 </div>
                             </div>
                         </div>
@@ -540,7 +542,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 d-flex align-items-center justify-content-end">
-                <p class="mb-0"><a href="https://wa.me/081367600360" target="_blank" class="btn btn-primary py-3 px-4">Hubungi Kami</a></p>
+                <p class="mb-0"><a href="mailto:apikmandiri@gmail.com" target="_blank" class="btn btn-primary py-3 px-4">Hubungi Kami</a></p>
             </div>
         </div>
     </div>
