@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                <img src="<?php echo base_url()?>/logo_apik.png" alt="logo_apik_mandiri" height="50" width="150" class="footer-heading">
+                <img src="<?php echo base_url() ?>/logo_apik.png" alt="logo_apik_mandiri" height="50" width="150" class="footer-heading">
                 <p>Lembaga pemberdayaan sosial terpercaya yang sudah bekerja sama dengan banyak mitra</p>
                 <p><a href="<?php echo base_url() ?>donate" class="btn btn-donateFooter">Donate</a></p>
             </div>
@@ -12,14 +12,14 @@
                     <a class="img mr-4 rounded" style="background-image: url(https://kitabisa.com/_next/image?url=https%3A%2F%2Fimgix.kitabisa.com%2Fmaster%2F34918bef-09fa-11ee-94c6-d6c536cdd306_1D68D5722B6E5325.png%3Fauto%3Dformat%26ch%3DWidth%2CDPR%2CSave-Data%2CViewport-Width&w=640&q=75);"></a>
                     <div class="text">
                         <h3 class="heading"><a href="https://kitabisa.com/campaign/apikdonasiuntuklansia">Donasi Rutin Bantu Puluhan Lansia di Panti Jompo</a></h3>
-                       
+
                     </div>
                 </div>
                 <div class="block-21 mb-4 d-flex">
                     <a class="img mr-4 rounded" style="background-image: url(https://img.kitabisa.cc/size/1000/7c4c78e9-1586-42c8-a49f-eaeb16685c76.jpg);"></a>
                     <div class="text">
                         <h3 class="heading"><a href="https://kitabisa.com/campaign/perlengkapansekolahanaktps">MIRIS! 20 Pemulung Cilik Cari Nafkah Demi Sekolah</a></h3>
-                     
+
                     </div>
                 </div>
             </div>
@@ -27,7 +27,6 @@
                 <h2 class="footer-heading">Quick Links</h2>
                 <ul class="list-unstyled">
                     <li><a href="<?php echo base_url() ?>" class="py-2 d-block">Home</a></li>
-                    <!-- <li><a href="" class="py-2 d-block">Program Kerja</a></li> -->
                     <li><a href="<?php echo base_url() ?>gallery" class="py-2 d-block">Gallery</a></li>
                     <li><a href="<?php echo base_url() ?>profil" class="py-2 d-block">Profil Lembaga</a></li>
                 </ul>
