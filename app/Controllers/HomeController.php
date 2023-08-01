@@ -37,4 +37,28 @@ class HomeController extends BaseController
         ];
         return view("donate", $data);
     }
+
+    public function kabarList()
+    {
+        $data = [
+            'title' => 'Kabar Terbaru',
+        ];
+        return view("kabar/kabarList", $data);
+    }
+
+    public function kabar1()
+    {
+        $data = [
+            'title' => 'Kabar Terbaru',
+        ];
+        return view("kabar/kabar1", $data);
+    }
+
+    public function kabar2()
+    {
+        $data = [
+            'title' => 'Kabar Terbaru',
+        ];
+        return view("kabar/kabar2", $data);
+    }
 }
