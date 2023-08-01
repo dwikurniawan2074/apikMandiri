@@ -52,7 +52,7 @@
     <div class="container">
         <div class="row d-flex no-gutters">
             <div class="col-md-6 d-flex order-md-last">
-                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(<?php echo base_url() ?>/logo_lembaga/foto_donasi.jpg);">
+                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(<?php echo base_url() ?>/landing_photo4.jpg);">
                 </div>
             </div>
             <div class="col-md-6 pr-md-5 py-md-5">

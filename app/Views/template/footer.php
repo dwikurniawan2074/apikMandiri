@@ -27,7 +27,7 @@
                 <h2 class="footer-heading">Quick Links</h2>
                 <ul class="list-unstyled">
                     <li><a href="<?php echo base_url() ?>" class="py-2 d-block">Home</a></li>
-                    <li><a href="<?php echo base_url() ?>" class="py-2 d-block">Program Kerja</a></li>
+                    <!-- <li><a href="" class="py-2 d-block">Program Kerja</a></li> -->
                     <li><a href="<?php echo base_url() ?>gallery" class="py-2 d-block">Gallery</a></li>
                     <li><a href="<?php echo base_url() ?>profil" class="py-2 d-block">Profil Lembaga</a></li>
                 </ul>

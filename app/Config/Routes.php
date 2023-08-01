@@ -33,6 +33,9 @@ $routes->get('/', 'HomeController::index');
 $routes->get('/profil', 'HomeController::profil');
 $routes->get('/gallery', 'HomeController::gallery');
 $routes->get('/donate', 'HomeController::donate');
+$routes->get('/kabarList', 'HomeController::kabarList');
+$routes->get('/kabar1', 'HomeController::kabar1');
+$routes->get('/kabar2', 'HomeController::kabar2');
 
 /*
  * --------------------------------------------------------------------

@@ -45,11 +45,34 @@
     .wrap-about .text .number {
         display: inline-block;
     }
+
+    hr.solid {
+        border-top: 1px solid black;
+        margin: 2em 6em;
+    }
+
+    .kabar-terbaru {
+        border-radius: 0 0 0 0;
+    }
+
+    .block-27 ul li a,
+    .block-27 ul li span {
+        padding: 10px;
+        display: unset;
+        width: 100%;
+        border-radius: 5%;
+        border: unset;
+    }
+
+    .ceritaLengkap {
+        display: flex;
+        justify-content: flex-end;
+    }
 </style>
 
 <section class="hero-wrap js-fullheight">
     <div class="home-slider js-fullheight owl-carousel">
-        <div class="slider-item js-fullheight" style="background-image:url(<?php echo base_url() ?>/unicare-master/images/bg_1.jpg);">
+        <div class="slider-item js-fullheight" style="background-image:url(<?php echo base_url() ?>/landing_photo1.jpg);">
             <div class="overlay-1"></div>
             <div class="overlay-2"></div>
             <div class="overlay-3"></div>
@@ -71,7 +94,7 @@
             </div>
         </div>
 
-        <div class="slider-item js-fullheight" style="background-image:url(<?php echo base_url() ?>/unicare-master/images/bg_2.jpg);">
+        <div class="slider-item js-fullheight" style="background-image:url(<?php echo base_url() ?>/landing_photo2.jpeg);">
             <div class="overlay-1"></div>
             <div class="overlay-2"></div>
             <div class="overlay-3"></div>
@@ -164,7 +187,7 @@
                 <!-- <p><a href="#" class="btn btn-secondary btn-outline-secondary">Become A Volunteer</a></p> -->
             </div>
             <div class="col-md-5 wrap-about py-5">
-                <img class="img-fluid" src="<?php echo base_url() ?>/logo_lembaga/foto_donasi.jpg" alt="Foto Landing Page" style="height: 100%;">
+                <img class="img-fluid" src="<?php echo base_url() ?>/landing_photo4.jpg" alt="Foto Landing Page" style="height: 100%;">
             </div>
         </div>
     </div>
@@ -172,6 +195,12 @@
 
 <section class="ftco-section ftco-no-pt ftco-no-pb">
     <div class="container">
+        <div class="row justify-content-center pb-5 mb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
+                <span class="subheading">Program Kerja</span>
+                <h2>4 Program Kerja Utama Apik Mandiri</h2>
+            </div>
+        </div>
         <div class="row no-gutters">
             <div class="col-md-3 d-flex align-items-stretch">
                 <div class="services">
@@ -281,39 +310,43 @@
             </div>
         </div>
 
-        <div class="row grid-container">
-            <div class="col-md-6 col-lg-1"></div>
-            <div class="col-md-6 col-lg-3 grid-item">
-                <div class="causes causes-2 text-center ftco-animate">
-                    <a href="#" class="img w-100" style="background-image: url(https://img.kitabisa.cc/size/1000/f32aea7e-7d10-45ec-ab56-3aa234540fcf.jpg);"></a>
+        <hr class="solid" style="padding-bottom: 5em;">
+
+        <div class="row justify-content-center pb-5 mb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <span class="subheading">Berita</span>
+                <h2>Kabar-Kabar Terbaru</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="causes causes-2 text-center ftco-animate kabar-terbaru">
+                    <a href="<?php echo base_url() ?>kabar1" class="img w-100" style="background-image: url(https://img.kitabisa.cc/size/720/fad2a66a-83d7-4715-a880-68d5d63ad720.jpg);"></a>
                     <div class="text p-3">
-                        <h2><a href="https://kitabisa.com/campaign/apikbantuammar">Tubuh Melepuh, Ammar Terancam Kanker Kulit</a></h2>
-                        <p>Ammar hanya bisa menangis dan merintih kesakitan. Sekujur tubuhnya melepuh akibat tersiram air panas.</p>
-                        <p><a href="https://kitabisa.com/campaign/apikbantuammar" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
+                        <h2><a href="<?php echo base_url() ?>kabar1" target="_blank">Single Mom Berjuang Sembuhkan 2 Anak Sakit Kanker</a></h2>
+                        <p>Alfathir (2 tahun) dan Nadhira (1 tahun) sejak lahir sama-sama divonis kanker mata.</p>
+                        <p><a href="<?php echo base_url() ?>kabar1" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 grid-item">
-                <div class="causes causes-2 text-center ftco-animate">
-                    <a href="https://kitabisa.com/campaign/apikuntukfatirdandhira" class="img w-100" style="background-image: url(https://lh5.googleusercontent.com/edIqD0ZXVHOHRVw2zgERWj2SkNmLrmjOSzEySC9tiV-cfGLzWjfpqmgo-N3XppNIYeuQKRHfdXjbzCEGLMrsOODceo4f85xo0ZvfNvWzf4FLmnu7j28BaNM6NlILyhNaMtdkrbbhmHsOBxVB0EwsTN4);"></a>
+            <div class="col-md-6 col-lg-6">
+                <div class="causes causes-2 text-center ftco-animate kabar-terbaru">
+                    <a href="<?php echo base_url() ?>kabar2" class="img w-100" style="background-image: url(https://img.kitabisa.cc/size/1000/7c4c78e9-1586-42c8-a49f-eaeb16685c76.jpg);"></a>
                     <div class="text p-3">
-                        <h2><a href="https://kitabisa.com/campaign/apikuntukfatirdandhira">Single Mom Berjuang Sembuhkan 2 Anak Sakit Kanker</a></h2>
-                        <p>Buah hatinya, Alfathir (2 tahun) dan Nadhira (1 tahun) sejak lahir sama-sama divonis kanker mata.</p>
-                        <p><a href="https://kitabisa.com/campaign/apikuntukfatirdandhira" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
+                        <h2><a href="<?php echo base_url() ?>kabar2">Bayar Fidyah Rp20 Ribu = Beri Makan Lansia Dhuafa</a></h2>
+                        <p>Penuh keringat, kisah perjuangan anak-anak di TPS Bakung sungguh menyayat hati. </p>
+                        <p><a href="<?php echo base_url() ?>kabar2" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 grid-item">
-                <div class="causes causes-2 text-center ftco-animate">
-                    <a href="https://kitabisa.com/campaign/apikuntukmila" class="img w-100" style="background-image: url(https://lh5.googleusercontent.com/nrNjU8RUjIpuTOGSkLthq8eWaijDTGEI_DbzBvegUF2F9jgpLxquqvQ76Vi1xK1fHNMI4Hec5EiEk7QentNGMIM33ig9W4gzVYBejW3wX_7Yfra5AWpLy4W1uIopWU-BlCMgjBe3wCciaj6FaPipKUs);"></a>
-                    <div class="text p-3">
-                        <h2><a href="https://kitabisa.com/campaign/apikuntukmila">Bantu Jantung Anak Ojol Ini Tetap Berdetak</a></h2>
-                        <p>Mila membuka kedua matanya pelan. Yang bocah 9 tahun itu lihat pertama kali adalah langit-langit rumah sakit.</p>
-                        <p><a href="https://kitabisa.com/campaign/apikuntukmila" target="_blank" class="btn btn-light w-100">Lihat Detail</a></p>
-                    </div>
-                </div>
+
+        </div>
+
+        <div class="row mt-2 mb-5">
+            <div class="col text-center">
+                <h5><a href="<?php echo base_url() ?>kabarList"><i><u>Lihat Kabar Lebih Banyak ></u></i></a></h5>
             </div>
-            <div class="col-md-6 col-lg-1"></div>
         </div>
     </div>
 </section>
