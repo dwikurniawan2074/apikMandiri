@@ -60,6 +60,12 @@
                             <h3 class="heading"><a href="<?php echo base_url() ?>kabar2">Bayar Fidyah Rp20 Ribu = Beri Makan Lansia Dhuafa</a></h3>
                         </div>
                     </div>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url(https://img.kitabisa.cc/size/1000/67f576a2-1f16-4cd8-a719-a8903080fb68.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="<?php echo base_url() ?>kabar3">Badan Bungkuk, Lansia 62 Th Tetap Jualan Keliling</a></h3>
+                        </div>
+                    </div>
                 </div>
             </div>
 
