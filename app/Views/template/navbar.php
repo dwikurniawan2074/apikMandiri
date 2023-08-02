@@ -27,8 +27,8 @@
         .btn-donateFooter {
             background: #0376BC;
         }
-        
-        .footer a{
+
+        .footer a {
             color: black;
         }
 
@@ -39,7 +39,7 @@
         .hero-wrap.hero-wrap-2 {
             height: 400px;
         }
-        
+
 
         .ftco-hireme {
             padding: 30px 0;
@@ -60,13 +60,35 @@
             </button>
 
             <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="<?php echo base_url() ?>" class="nav-link">Home</a></li>
-                    <!-- <li class="nav-item"><a href="" class="nav-link">Program Kerja</a></li> -->
-                    <li class="nav-item"><a href="<?php echo base_url() ?>gallery" class="nav-link">Gallery</a></li>
-                    <li class="nav-item"><a href="<?php echo base_url() ?>profil" class="nav-link">Profil Lembaga</a></li>
-                    <li class="nav-item cta"><a href="<?php echo base_url() ?>donate" class="nav-link">Donasi</a></li>
-                </ul>
+                <?php if ($title == "Beranda") { ?>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="<?php echo base_url() ?>" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="<?php echo base_url() ?>gallery" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="<?php echo base_url() ?>profil" class="nav-link">Profil Lembaga</a></li>
+                        <li class="nav-item cta"><a href="<?php echo base_url() ?>donate" class="nav-link">Donasi</a></li>
+                    </ul>
+                <?php } else if ($title == "Profil") { ?>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="<?php echo base_url() ?>" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="<?php echo base_url() ?>gallery" class="nav-link">Gallery</a></li>
+                        <li class="nav-item active"><a href="<?php echo base_url() ?>profil" class="nav-link">Profil Lembaga</a></li>
+                        <li class="nav-item cta"><a href="<?php echo base_url() ?>donate" class="nav-link">Donasi</a></li>
+                    </ul>
+                <?php } else if ($title == "Gallery") { ?>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="<?php echo base_url() ?>" class="nav-link">Home</a></li>
+                        <li class="nav-item active"><a href="<?php echo base_url() ?>gallery" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="<?php echo base_url() ?>profil" class="nav-link">Profil Lembaga</a></li>
+                        <li class="nav-item cta"><a href="<?php echo base_url() ?>donate" class="nav-link">Donasi</a></li>
+                    </ul>
+                <?php } else { ?>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="<?php echo base_url() ?>" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="<?php echo base_url() ?>gallery" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="<?php echo base_url() ?>profil" class="nav-link">Profil Lembaga</a></li>
+                        <li class="nav-item cta"><a href="<?php echo base_url() ?>donate" class="nav-link">Donasi</a></li>
+                    </ul>
+                <?php } ?>
             </div>
         </div>
     </nav>

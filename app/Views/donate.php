@@ -32,8 +32,6 @@
     a {
         color: #808080;
     }
-
-    
 </style>
 
 
@@ -95,13 +93,13 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_BNI.png)">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_mandiri.png)">
                             </div>
                             <div class="text pl-4">
-                                <p class="name">Bank BNI</p>
-                                <span class="position">02588762462</span>
+                                <p class="name">Bank Mandiri</p>
+                                <span class="position">1140022331113</span>
                                 <br>
-                                <span class="position">a/n Apik Mandiri</span>
+                                <span class="position">a/n Lembaga Kesejahteraa</span>
                             </div>
                         </div>
                     </div>
@@ -119,13 +117,13 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_BNI.png)">
+                            <div class="user-img" style="background-image: url(<?php echo base_url() ?>/logo_lembaga/logo_mandiri.png)">
                             </div>
                             <div class="text pl-4">
-                                <p class="name">Bank BNI</p>
-                                <span class="position">02588762462</span>
+                                <p class="name">Bank Mandiri</p>
+                                <span class="position">1140022331113</span>
                                 <br>
-                                <span class="position">a/n Apik Mandiri</span>
+                                <span class="position">a/n Lembaga Kesejahteraa</span>
                             </div>
                         </div>
                     </div>

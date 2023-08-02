@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row d-flex no-gutters">
             <div class="col-md-6 d-flex order-md-last">
-                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(<?php echo base_url() ?>/unicare-master/images/about-3.jpg);">
+                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(https://scontent.fkno6-1.fna.fbcdn.net/v/t39.30808-6/352493582_272817618445177_8468577909491903939_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFCKg-MRrIyuaGcUsc8NBZV9x4ud0rh-jX3Hi53SuH6NUhu5UkrwsM62eNNA7tzRPgnXQ_NNJY7v-fkKfO3TZPp&_nc_ohc=NE-gwcYYXUoAX_AdIlN&_nc_ht=scontent.fkno6-1.fna&oh=00_AfD80An0QLt6GTZjgsZ2Dhn-CY3y415VJfAvqQ8oCiQRTg&oe=64CF38B2);">
                 </div>
             </div>
             <div class="col-md-6 pr-md-5 py-md-5">

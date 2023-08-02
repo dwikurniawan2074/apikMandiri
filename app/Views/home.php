@@ -68,6 +68,17 @@
         display: flex;
         justify-content: flex-end;
     }
+
+    @media screen and (max-width: 767.98px) {
+        .wrap-about .counter-wrap {
+            margin-top: 30px;
+            width: fit-content;
+        }
+        .text{
+            display: inline-block;
+        }
+    }
+
 </style>
 
 <section class="hero-wrap js-fullheight">
@@ -116,7 +127,7 @@
             </div>
         </div>
 
-        <div class="slider-item js-fullheight" style="background-image:url(<?php echo base_url() ?>/unicare-master/images/bg_3.jpg);">
+        <div class="slider-item js-fullheight" style="background-image:url(<?php echo base_url() ?>/landing_photo3.jpg);">
             <div class="overlay-1"></div>
             <div class="overlay-2"></div>
             <div class="overlay-3"></div>
@@ -157,7 +168,7 @@
                                 <span class="flaticon-volunteer"></span>
                             </div>
                             <div class="desc">
-                                <div class="text mitra-number">
+                                <div id="mitra-number" class="text mitra-number" >
                                     <strong class="number mitra-number" data-number="18">0</strong>
                                     <strong class="number mitra-number">+</strong>
                                 </div>
@@ -208,7 +219,7 @@
                         <h3>Kesehatan</h3>
                         <p>Membantu menyediakan akses fasilitas kesehatan bagi masyarakat yang kurang mampu</p>
                     </div>
-                    <div class="img border-2" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/services-1.jpg);">
+                    <div class="img border-2" style="background-image: url(https://img.kitabisa.cc/size/1000/f32aea7e-7d10-45ec-ab56-3aa234540fcf.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="flaticon-stethoscope"></span>
                         </div>
@@ -221,7 +232,7 @@
                         <h3>Makanan</h3>
                         <p>Membantu menyediakan makanan-makanan sehat bagi orang yang tidak mampu</p>
                     </div>
-                    <div class="img border-3" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/services-2.jpg);">
+                    <div class="img border-3" style="background-image: url(https://scontent.fkno6-1.fna.fbcdn.net/v/t39.30808-6/284284589_555924489412892_8853826041985453049_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGBr4s1gHhXZxa2924teiFCcDpjvybOSd9wOmO_Js5J37T6cplPMepc8D0i85ijsLW-nhtAq1YcpTlPmppOXByn&_nc_ohc=JgrHF_Vho9gAX8eOeqD&_nc_ht=scontent.fkno6-1.fna&oh=00_AfB42R9G4gj4mFtMaBMKLG-08EHZyRG17JYaoYBhJzoniA&oe=64CF4C34);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="flaticon-bread"></span>
                         </div>
@@ -234,7 +245,7 @@
                         <h3>Air</h3>
                         <p>Membantu menyediakan air bersih untuk pesantren-pesantren dan daerah tertinggal</p>
                     </div>
-                    <div class="img border-1" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/services-3.jpg);">
+                    <div class="img border-1" style="background-image: url(https://drive.google.com/uc?export=view&id=1fv9MvP15gpHw5U5w28NE8dUPntTugJK1);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="flaticon-water-drop"></span>
                         </div>
@@ -247,7 +258,7 @@
                         <h3>Pendidikan</h3>
                         <p>Membantu dalam mewujudkan sistem pendidikan yang merata bagi setiap anak indonesia</p>
                     </div>
-                    <div class="img border-4" style="background-image: url(<?php echo base_url() ?>/unicare-master/images/services-4.jpg);">
+                    <div class="img border-4" style="background-image: url(<?php echo base_url() ?>/landing_photo3.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="flaticon-university"></span>
                         </div>
@@ -332,7 +343,7 @@
             </div>
             <div class="col-md-6 col-lg-6">
                 <div class="causes causes-2 text-center ftco-animate kabar-terbaru">
-                    <a href="<?php echo base_url() ?>kabar2" class="img w-100" style="background-image: url(https://img.kitabisa.cc/size/1000/7c4c78e9-1586-42c8-a49f-eaeb16685c76.jpg);"></a>
+                    <a href="<?php echo base_url() ?>kabar2" class="img w-100" style="background-image: url(https://kitabisa.com/_next/image?url=https%3A%2F%2Fimgix.kitabisa.com%2F6d6df985-168f-4c62-9b7b-5999c52bc2be.jpg%3Fauto%3Dformat%26ch%3DWidth%2CDPR%2CSave-Data%2CViewport-Width&w=640&q=75);"></a>
                     <div class="text p-3">
                         <h2><a href="<?php echo base_url() ?>kabar2">Bayar Fidyah Rp20 Ribu = Beri Makan Lansia Dhuafa</a></h2>
                         <p>Penuh keringat, kisah perjuangan anak-anak di TPS Bakung sungguh menyayat hati. </p>
